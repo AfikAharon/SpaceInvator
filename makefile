@@ -1,7 +1,3 @@
-# Afik Aharon
-# 301494670
-# aharonay
-
 compile: bin
 	find src | grep .java > sources.txt
 	javac -d bin -cp biuoop-1.4.jar @sources.txt
